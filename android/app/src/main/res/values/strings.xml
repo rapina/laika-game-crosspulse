@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Crosspulse</string>
+    <string name="title_activity_main">Crosspulse</string>
+    <string name="package_name">com.sputnikworkshop.crosspulse</string>
+    <string name="custom_url_scheme">com.sputnikworkshop.crosspulse</string>
+</resources>

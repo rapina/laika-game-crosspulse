@@ -1,0 +1,22 @@
+{
+  "seed": "1",
+  "sourceHash": "56afb30dacb6216869f8612105bf51a000bf6e690a541b541848499c324a7a8c",
+  "mounted": true,
+  "finished": true,
+  "resultDelivered": true,
+  "restartVerified": true,
+  "firstInputSilent": true,
+  "audioUnlockedByGameplay": true,
+  "muteVerified": true,
+  "languageVerified": true,
+  "pauseResumeVerified": true,
+  "captures": [
+    "first-play",
+    "verb-precision",
+    "verb-success",
+    "verb-failure",
+    "game-over"
+  ],
+  "consoleErrors": [],
+  "pageErrors": []
+}

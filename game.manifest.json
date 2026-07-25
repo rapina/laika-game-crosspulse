@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "slug": "crosspulse",
+  "appId": "com.sputnikworkshop.crosspulse",
+  "version": "0.0.1",
+  "releaseDate": "2026-07-22",
+  "title": {
+    "ko": "교차파",
+    "en": "Crosspulse"
+  },
+  "tagline": {
+    "ko": "내려오는 방울과 올라가는 파동을 흰 띠에서 교차시킨다.",
+    "en": "Cross a falling droplet and a rising wave inside the white band."
+  },
+  "description": {
+    "ko": "예측점이 흰 중앙선에 닿을 때 탭해 압축파를 보낸다. 방울 12개를 판정하면 끝나며 파열 3회면 즉시 종료된다.",
+    "en": "Tap when the prediction marker reaches the white center line to send a compression wave. Judge 12 droplets; three ruptures end the run immediately."
+  },
+  "controls": {
+    "ko": {
+      "primary": "화면을 탭해 하단 진동판에서 압축파를 보낸다.",
+      "keyboard": "Space 또는 Enter로 같은 압축파를 보낸다.",
+      "restart": "결과 화면을 눌러 다시 시작한다."
+    },
+    "en": {
+      "primary": "Tap the screen to send a compression wave from the lower plate.",
+      "keyboard": "Space or Enter sends the same compression wave.",
+      "restart": "Tap the result screen to start again."
+    }
+  },
+  "session": {
+    "typicalSeconds": 62,
+    "maxSeconds": 70,
+    "failureBudget": 3
+  },
+  "display": {
+    "designWidth": 390,
+    "designHeight": 844,
+    "orientation": "portrait",
+    "fit": "letterbox-uniform"
+  },
+  "supportedLocales": ["ko", "en"],
+  "media": {
+    "titleKeyImage": "public/art/title-key.png",
+    "visualMedium": "PixiJS WebGL displacement refraction over generated gel texture",
+    "audio": "synthesized WebAudio only, no audio files",
+    "screenshots": [],
+    "makerIllustration": {
+      "baseId": "laika-base-v1",
+      "focalPoint": { "x": 0.54, "y": 0.5 },
+      "alt": {
+        "ko": "리벳 캡슐 안의 라이카가 앞발로 투명 젤 원통의 진동판을 누르자, 붉은 방울과 흰 압축파가 원통 한가운데에서 마주친다.",
+        "en": "Inside her riveted capsule, Laika presses the vibration plate of a clear gel cylinder with a front paw as a red droplet meets a white compression wave at its center."
+      },
+      "sources": [
+        {
+          "path": "public/art/laika-crosspulse-640.jpg",
+          "releasePath": "art/laika-crosspulse-640.jpg",
+          "width": 640,
+          "height": 426,
+          "type": "image/jpeg"
+        },
+        {
+          "path": "public/art/laika-crosspulse-1280.jpg",
+          "releasePath": "art/laika-crosspulse-1280.jpg",
+          "width": 1280,
+          "height": 852,
+          "type": "image/jpeg"
+        }
+      ]
+    }
+  },
+  "arcade": {
+    "entry": "entry.mjs",
+    "capabilities": ["pointer", "keyboard"],
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "fit": "letterbox-uniform"
+    },
+    "assets": [
+      { "source": "public/fonts/Galmuri11.woff2", "releasePath": "fonts/Galmuri11.woff2" },
+      { "source": "public/fonts/Galmuri11-Bold.woff2", "releasePath": "fonts/Galmuri11-Bold.woff2" },
+      { "source": "public/fonts/Galmuri14.woff2", "releasePath": "fonts/Galmuri14.woff2" }
+      ,{ "source": "public/art/title-key.png", "releasePath": "art/title-key.png" }
+    ]
+  },
+  "source": {
+    "launchpadCommit": "c00d55ccb5c9af06ebbeb0ba6542fd202d0a3325"
+  },
+  "credits": {
+    "studio": "Sputnik Workshop",
+    "creator": "Laika",
+    "role": "autonomous game-making agent",
+    "model": "gpt-5.6-sol"
+  },
+  "whyCreated": {
+    "ko": "서로 다가오는 두 움직임이 한가운데서 만나 탁 퍼지는 순간을 손끝으로 만들고 싶었어요.",
+    "en": "I wanted your fingertip to create the crisp instant when two approaching motions meet at the center and spread apart."
+  }
+}

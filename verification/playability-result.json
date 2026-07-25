@@ -1,0 +1,70 @@
+{
+  "sourceHash": "56afb30dacb6216869f8612105bf51a000bf6e690a541b541848499c324a7a8c",
+  "pass": true,
+  "runsPerPolicy": 500,
+  "failedGates": [],
+  "intuitive": {
+    "completionRate": 0.724,
+    "meanJudgments": 10.978,
+    "endedByJudgementRate": 1,
+    "spentFailureBudgetRate": 0.892,
+    "scoreMedian": 820,
+    "preciseRate": 0.5421752596101294
+  },
+  "skilled": {
+    "completionRate": 0.972,
+    "meanJudgments": 11.906,
+    "endedByJudgementRate": 1,
+    "spentFailureBudgetRate": 0.574,
+    "scoreMedian": 1100,
+    "preciseRate": 0.8696455568620863
+  },
+  "noInput": {
+    "completionRate": 0,
+    "meanJudgments": 3,
+    "endedByJudgementRate": 1,
+    "spentFailureBudgetRate": 1,
+    "survivedFraction": 0.25,
+    "scoreMedian": 0,
+    "preciseRate": 0
+  },
+  "ab": {
+    "pass": true,
+    "pairedSeeds": 500,
+    "sameErrorAndReactionSamples": true,
+    "bandPrecision": [
+      {
+        "band": 1,
+        "predictiveA": 0.7413333333333333,
+        "currentDropB": 0.344,
+        "gap": 0.3973333333333333
+      },
+      {
+        "band": 2,
+        "predictiveA": 0.6726907630522089,
+        "currentDropB": 0.021203830369357045,
+        "gap": 0.6514869326828518
+      },
+      {
+        "band": 3,
+        "predictiveA": 0.7256515775034293,
+        "currentDropB": 0,
+        "gap": 0.7256515775034293
+      },
+      {
+        "band": 4,
+        "predictiveA": 0.5542774982027319,
+        "currentDropB": 0,
+        "gap": 0.5542774982027319
+      }
+    ],
+    "meanSurvivedDrops": {
+      "predictiveA": 11.686,
+      "currentDropB": 7.29
+    },
+    "precisionGap": {
+      "bands1to2": 0.5244101330080926,
+      "bands3to4": 0.6399645378530806
+    }
+  }
+}

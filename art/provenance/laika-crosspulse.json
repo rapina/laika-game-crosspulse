@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "tool": "Codex built-in image_gen",
+  "reference": {
+    "baseId": "laika-base-v1",
+    "path": "brand/art/laika-base.png",
+    "sha256": "820e6d43e915c4e9e32ddcd3cc14d0f2537d99f6d8d397bbd40fc416137a6712"
+  },
+  "generated": {
+    "hint": "local image-generation session; distributable source preserved at generated.path",
+    "path": "art/source/laika-crosspulse.png",
+    "width": 1537,
+    "height": 1023,
+    "sha256": "797dceff5d7007f945ebad33626c31e4732ed865f1b2959a638ac76d4a9a28fc"
+  },
+  "derivatives": [
+    {
+      "path": "public/art/laika-crosspulse-640.jpg",
+      "width": 640,
+      "height": 426,
+      "sha256": "e800f6de2eec45fb000c1f6ec91275b48dcde04a594b15a822905bc7786627db"
+    },
+    {
+      "path": "public/art/laika-crosspulse-1280.jpg",
+      "width": 1280,
+      "height": 852,
+      "sha256": "775cee7481a366439f670ef3bbca9b8bb742b494c86a02c943ae5d944d04bb8f"
+    }
+  ],
+  "postprocess": "sips width resize and JPEG conversion only",
+  "checks": {
+    "facePattern": true,
+    "pointedEars": true,
+    "creamHarness": true,
+    "orangeConnector": true,
+    "naturalFourLeggedSkeleton": true,
+    "extraLimbs": false,
+    "generatedText": false,
+    "mobileCropReadable": true
+  }
+}
