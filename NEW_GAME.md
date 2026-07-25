@@ -8,7 +8,7 @@
 
 ```bash
 # 1) 템플릿 복사
-cp -r toss-game-launchpad my-new-game && cd my-new-game
+cp -r laika-game-lunchpad my-new-game && cd my-new-game
 rm -rf .git && git init
 
 # 2) 아이덴티티 일괄 치환 (appId / 앱 이름 / Toss appName / 표시명)
